@@ -1,0 +1,125 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab|Montserrat&display=swap');
+
+
+.App {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+
+.nav {
+  background-color: #14BDAC !important;
+}
+
+.userName {
+  font-size: 13px !important;
+  border-style: none !important;
+}
+.login {
+  background-color: #F2EBD3 !important;
+  color: #0DA192 !important;
+  font-size: 13px !important;
+  border-style: none !important;
+  padding: 7px !important;
+}
+
+.login:hover {
+  background-color: #545454 !important;
+  color: #F2EBD3 !important; 
+}
+
+/* .container{
+  margin-top: 5px;
+} */
+
+.reset {
+  margin: 10px 0px 5px 0px;
+  width: 120px;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  padding: 8px !important;
+}
+
+.title {
+
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  /* text-align: center; */
+  margin-bottom: 20px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: solid 1px #0DA192;
+  border-bottom: solid 1px #0DA192;
+  background-color: #14BDAC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+
+}
+
+.board {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+
+}
+
+.gameCol {
+  display: flex;
+  justify-content: center; 
+}
+
+.game {
+  /* border: solid 0.5px #545454; */
+  /* box-shadow: 5px 5px 20px rgba(0,0,0, 0.2); */
+  border-radius: 10px;
+  margin-bottom:auto;
+  width: 600px;
+  height: 100%;
+  padding: 30px;
+}
+
+
+.X {
+  color: #545454;
+}
+
+.O {
+  color:#F2EBD3;
+}
+
+.outCome {
+  margin-top: 10px;
+}
