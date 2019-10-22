@@ -1,7 +1,7 @@
 # CoderSchool FTW - * TIC TAC TOE Game *
 
 Created with love by: Chloe Shin
-Please check my website at: 
+Please check my website at: https://chloe-tictactoe.netlify.com
 
 
 
