@@ -105,6 +105,7 @@
   /* border: solid 0.5px #545454; */
   /* box-shadow: 5px 5px 20px rgba(0,0,0, 0.2); */
   border-radius: 10px;
+  margin-top: 20px;
   margin-bottom:auto;
   width: 600px;
   height: 100%;
@@ -121,5 +122,16 @@
 }
 
 .outCome {
-  margin-top: 10px;
+  margin-top: 20px;
+}
+
+h6 {
+  font-weight: 800 !important;
+}
+.TopScore {
+border: solid 1px #14BDAC;
+border-radius: 10px;
+margin: 20px;
+padding: 30px;
+font-size: 13px;
 }
